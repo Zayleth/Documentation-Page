@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Statements">Statements</a></li>
+          <li><a class="nav-link" href="#Comments">Comments</a></li>
+          <li><a class="nav-link" href="#Indentation">Indentation</a></li>
+          <li><a class="nav-link" href="#What_is_a_data_type?">What is a data type?</a></li>
+          <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+          <li><a class="nav-link" href="#References">References</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+
+        <p>Python is a high-level programming language suitable for beginners thanks to its intuitive syntax, huge community, and vibrant ecosystem. 
+        Technically speaking, Python is an interpreted language that does not have an intermediate compilation phase like a compiled language, for example 
+        C or Java.
+        </p>
+
+        <p>And like many interpreted languages, it is typed dynamically. This means that you do not have to indicate the types of variables you use and the 
+        variables are not bound to a specific type. Python is a programming language widely used in various areas, including:
+        </p>
+
+        <ul>
+            <li><strong>Web Development:</strong> It is popular for back-end web development for its simplicity, scalability, and robust frameworks like Django and Flask.</li>
+            <li><strong>Data Science:</strong> Python's powerful libraries for numerical analysis, such as NumPy, Pandas, and scikit-learn, make it an essential tool for data 
+                scientists and analysts.</li>
+            <li><strong>Machine Learning: </strong>Python is the leading language in the field of machine learning thanks to its ease of use and frameworks.</li>
+            <li><strong>Software development: </strong>It is used to create a wide range of applications, from desktop software to productivity tools.</li>
+            <li><strong>Automation: </strong>Python's simplicity and flexibility make it ideal for automating repetitive tasks and streamlining workflows.</li>
+        </ul>
+
+        </article>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+        
+        <p>We can create a new Python variable by assigning a value to a label, using the assignment operator<code class="inline-code">=</code>A variable name can be composed 
+            of characters, numbers, and the underscore character<code class="inline-code">_</code>
+
+<p><strong>NOTE</strong> - Variables can not start with a number.</p>
+
+        </p>
+        
+        <p>In this example we assign a string with the value <code class="inline-code">"Zayleth"</code>to<code class="inline-code">name</code>
+        </p>
+
+        <p><code class="code">name = "Zayleth"</code>
+        </p>
+
+        <p>Other examples</p>
+
+        <code class="code">name1</code>
+        <code class="code">AGE</code>
+        <code class="code">a11111</code>
+        <code class="code">fourth_example</code>
+        <code class="code">_name</code>
+              
+        <p>There are some keywords like 
+            <code class="inline-code">for</code>
+            <code class="inline-code">if</code>
+            <code class="inline-code">while</code>
+            <code class="inline-code">import</code> and more. There is no need to memorize them, as Python will alert you if you use one of them as a variable, and you will gradually recognize them as part of the syntax of the Python programming language.
+        </p>
+      
+        </article>
+        </section>
+
+      <section class="main-section" id="Statements">
+        <header>Statements</header>
+        <article>
+
+        <p>A statement is an operation on a value. A program is made up of a series of statements. Each statement is placed on its own line, but you can use a semicolon<code class="inline-code">;</code>to have more than one statement on a single line:
+        </p>
+
+        <code class="code">name = "Zayleth"; print(name)</code>
+
+        </article>
+      </section>
+
+      <section class="main-section" id="Comments">
+        <header>Comments</header>
+        <article>
+
+        <p>In a Python program, anything after a mark<code class="inline-code">#</code>is ignored and considered a comment.
+        </p>
+
+        <code class="code"> < header > Comments < /header >
+            #this is a commented line</code>
+
+        <code class="code">name = "Zayleth" #this is an inline comment </code>
+        </p>
+
+        </article>
+      </section>
+
+      <section class="main-section" id="Indentation">
+        <header>Indentation</header>
+        <article>
+
+        <p>Indentation refers to the spaces at the beginning of a code line. It defines the structure of your code and determines which lines belong together 
+            as a block.
+        </p>
+        
+        <p>Everything indented belongs to a block, such as a control statement or conditional block, or a function or class body. An incorrect indentation will 
+            lead to syntax errors and your code won't run. 
+        </p>
+        
+        <p>Indentation’s rules:
+        </p>
+        <ul>
+            <li>Use 4 spaces for each indentation level. This is the recommended and widely adopted convention.</li>
+            <li>All statements within a block must have the same indentation.</li>
+            <li>Consistency is key! Maintain the same indentation throughout your code for readability.</li>
+        </ul>
+
+        <!--agregar ejemplos de identacion-->
+
+        </article>          
+      </section>
+
+      <section class="main-section" id="What_is_a_data_type?">
+        <header>What is a data type?</header>
+        <article>
+
+        <p>A data type refers to the classification of values ​​that can be stored in a variable. Each type of data has specific characteristics and 
+            properties that make it suitable for certain uses and operations.
+        </p>
+
+        <p>Data types are also used to determine how values ​​are stored in computer memory and how the values ​​can be manipulated and operated on. 
+            For example, integers are stored as sequences of bits in memory, and arithmetic operations such as addition, subtraction, multiplication, 
+            and division can be performed.
+        </p>
+
+        </article>
+      </section>
+
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <article>
+
+        <p>The types of data play are crucial when building robust and efficient applications. As one of the most popular and versatile programming languages, 
+            Python offers a wide range of built-in data types that make it easy to manipulate and store information. There are many data types in Python, 
+            some of them are -
+        </p>
+
+        <h3>Integer (int)</h3>
+        <p>Data of type int (short for "integer"), in Python, are those that represent integers. These are a type of numbers that do not have a decimal part, 
+            they are complete without fractions.
+        </p>
+            <code class="code">1, 2, 3, 4, 5</code>
+
+        <h3>Float</h3>
+        <p>Float data (short for “floating point”), in Python, are those that represent numbers with decimals.
+        </p>
+            <code class="code">1.23</code>
+            <code class="code">3.14</code>
+            <code class="code">45.5</code>
+            <code class="code">-12.34</code>
+            
+        <h3>Complex Numbers (complex)</h3>
+        <p>Those that represent numbers that have a real part and an imaginary part. In mathematics, complex numbers are defined as the sum of a real part and 
+            an imaginary part multiplied by the imaginary unit (denoted as "i" or "j").
+        </p>
+            
+        <p><strong>NOTE</strong> - Complex data is represented by writing a real number followed by a "j" to indicate the imaginary part.</p>
+    
+            <code class="code">3 + 2j</code>
+            <code class="code">-7.5 - 1j</code>
+            <code class="code">2j</code>
+        
+        <p><strong>NOTE</strong> - Instead of "i", Python uses "j", to denote the imaginary unit.</p>
+        
+    <h3>Text Types (str)</h3>
+    <p>String data (short for "character string" or "string"), in Python, is data that represents a sequence of characters (letters, numbers, symbols, etc.). 
+        They are represented in single quotes<code class="inline-code">('')</code>or double quotes<code class="inline-code">("")</code>
+    </p>
+    
+        <code class="code">"Hello World"</code>
+        <code class="code">’Python is great!'</code>
+        <code class="code">"1234"</code>
+
+    <h3>Booleans (bool)</h3>
+    <p>Data type bool (short for "boolean"), are those that represent truth values. In other words, they are true or false values. 
+        In Python, bool data is represented as True or False (with the first letter capitalized).
+    </p>
+    
+    <p>They are primarily used in logical and control-flow expressions, such as<code class="inline-code">if</code>and<code class="inline-code">while</code>statements.
+    </p>
+
+    <h3>Sequence types (list)</h3>
+
+    <p>Lists are those that represent an ordered collection of elements. In other words, lists are a data structure that allows multiple values ​​to be stored 
+        in a single object and accessed by their position in the list. List-type data is represented by brackets «[ ]» that contain the list elements separated 
+        by commas.
+    </p>
+
+        <code class="code">[1, 2, 3, 4, 5]</code>
+        <code class="code">['a', 'b', 'c']</code>
+        <code class="code">[1, 'a', True, [2, 3, 4]]</code>
+    
+    <h3>Tuples</h3>
+    <p>Tuples are a data structure that allows multiple values ​​to be stored in a single object and accessed by their position in the tuple, but once 
+        the tuple is created, the elements cannot be modified. Tuple-type data is represented by parentheses<code class="inline-code">( )</code>that contain the elements of the tuple separated by commas.
+    </p>
+        <code class="code">(1, 2, 3, 4, 5)</code>
+        <code class="code">('a', 'b', 'c')</code>
+        <code class="code">(1, 'a', True, (2, 3, 4))</code>
+    
+    </article>
+    </section>
+
+<section class="main-section" id="References">
+    <header>References</header>
+    <article>
+        <p>All the documentation in this page is taken from</p>
+        <ul>
+            <li>
+                <a href="https://www.freecodecamp.org/espanol/news/el-manual-de-python/" target="_blank">The Python Handbook</a>
+            </li>
+
+            <li>
+                <a href="https://blog.hubspot.es/website/tipos-de-datos-python" target="_blank">Python Data Type</a>
+            </li>
+        </ul>
+    </article>
+</section>
+
+    </main>
+  </body>
+</html>
