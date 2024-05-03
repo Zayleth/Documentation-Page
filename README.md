@@ -1,65 +1,45 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# Documentation Page
 
-> One paragraph statement about the project.
+> Documentation Page is one of the Free Code Camp projects. In this case the topic to be explained is Python which is known as a a powerful and versatile programming language known for its simplicity and readability. It's like having a clear and concise way to tell a computer what to do. This makes it a great choice for beginners and experienced programmers alike.
 
-![screenshot](./app_screenshot.png)
+Like many interpreted languages, it is typed dynamically and widely used in various areas. Also It is versatile, free and Open Source.
 
-Additional description about the project and its features.
+![screenshot](./app_screenshot.png) agregar
+
+The project has a navigation bar that allows you to go directly to the desired section (just with one click) which will allow you to expand your knowledge of Python as a programming language.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML-CSS
+- Technologies used: Git-GitHub
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://livedemo.com) agregar
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1. Clone the repository in Git.
+2. Run it from a browser.
 
 ## Authors
 
-👤 **Arístides José Molina Pérez**
+👤 **Zayleth Vegas**
 
-- GitHub: [@aristides1000](https://github.com/aristides1000)
-- Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aristides-molina/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Zayleth](https://github.com/aristides1000)
+- 
+- LinkedIn: [LinkedIn]
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Zayleth/Documentation-Page/issues).
 
 ## Show your support
 
@@ -67,9 +47,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Use the navigation bar to get specific information you need and optimize your time
+- Inspiration: Free Code Camp Project
 
 ## 📝 License
 
